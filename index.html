@@ -17,6 +17,10 @@ vid.volume = 0.01;
   <audio id="audio" preload="" autoplay="" loop="">
     <source type="audio/mp3" src="music.mp3">
   </audio>
+<script>
+  var audio = document.getElementById("bgAudio");
+  audio.volume = 0.1;
+</script>
  	<script type="text/javascript">
     window.onkeydown = function(evt) {
         if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
