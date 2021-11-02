@@ -1,1 +1,1 @@
-# idinaxui.github.io
+# idinaxui
